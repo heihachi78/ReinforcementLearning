@@ -1,0 +1,35 @@
+PS C:\Users\heihachi\Documents\Python Scripts\LunarLander> py .\main_vec.py -l
+physical_gpu_devices [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+physical_cpu_devices [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+USING CPU [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+cannot load weights weights_CartPole-v1_DuelingDeepQNetwork_VECCPU.h5
+
+ITER 0/100
+train (eps=0.10): 100%|██████████████████████████████████████████████████████████| 10000/10000 [04:58<00:00, 33.54it/s]
+weights saved to weights_CartPole-v1_DuelingDeepQNetwork_VECCPU.h5
+collected memory entries: 120000
+took 298.21 secs to train
+eval (85 completed): 100%|████████████████████████████████████████████████████████| 2000/2000 [00:02<00:00, 916.71it/s]
+eval scores [185, 200, 211, 219, 219, 235, 244, 249, 251, 284, 285, 296, 229, 219, 257, 227, 218, 229, 226, 299, 275, 245, 317, 301, 192, 224, 255, 253, 212, 220, 283, 320, 211, 218, 274, 296, 243, 281, 213, 226, 224, 284, 240, 205, 346, 252, 321, 322, 272, 235, 247, 206, 193, 262, 220, 287, 224, 274, 228, 345, 197, 194, 258, 202, 252, 261, 291, 410, 257, 204, 221, 237, 246, 375, 317, 333, 395, 275, 215, 387, 281, 251, 260, 329, 313] (mean=258)
+took 12.94 secs to eval
+total run time: 0h 5m 21s
+
+ITER 1/100
+train (eps=0.10): 100%|██████████████████████████████████████████████████████████| 10000/10000 [05:17<00:00, 31.48it/s]
+weights saved to weights_CartPole-v1_DuelingDeepQNetwork_VECCPU.h5
+collected memory entries: 240000
+took 317.69 secs to train
+eval (103 completed): 100%|███████████████████████████████████████████████████████| 2000/2000 [00:02<00:00, 877.42it/s]
+eval scores [179, 201, 201, 202, 209, 209, 212, 212, 213, 222, 279, 292, 191, 177, 193, 209, 199, 191, 205, 227, 230, 233, 311, 226, 216, 183, 197, 214, 176, 223, 238, 249, 222, 190, 207, 205, 181, 192, 195, 210, 251, 221, 221, 217, 193, 185, 201, 279, 204, 199, 229, 228, 202, 225, 206, 192, 182, 217, 209, 193, 207, 212, 217, 231, 213, 215, 200, 205, 206, 189, 213, 270, 181, 208, 187, 232, 238, 215, 237, 232, 204, 241, 209, 226, 186, 181, 194, 210, 212, 392, 209, 190, 268, 217, 350, 253, 335, 210, 200, 179, 212, 185, 270] (mean=217)
+took 22.99 secs to eval
+total run time: 0h 11m 2s
+
+ITER 2/100
+train (eps=0.10): 100%|██████████████████████████████████████████████████████████| 10000/10000 [05:35<00:00, 29.80it/s]
+weights saved to weights_CartPole-v1_DuelingDeepQNetwork_VECCPU.h5
+collected memory entries: 360000
+took 335.60 secs to train
+eval (48 completed): 100%|████████████████████████████████████████████████████████| 2000/2000 [00:02<00:00, 927.55it/s]
+eval scores [500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500] (mean=500)
+took 13.49 secs to eval
+total run time: 0h 16m 51s

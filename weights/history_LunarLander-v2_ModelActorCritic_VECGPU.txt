@@ -1,0 +1,1114 @@
+(.venv) PS C:\Users\heihachi\Documents\Python Scripts\LunarLander> py .\main_vec.py -l -g
+physical_gpu_devices [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+physical_cpu_devices [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+USING GPU [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+cannot load weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+
+ITER 0/100
+train (eps=0.37): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:23<00:00,  6.96it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 12000
+took 143.72 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:12<00:00, 34.32it/s]
+eval scores [-72, -101] (mean=-86)
+took 73.04 secs to evaluate
+total run time: 0h 3m 46s
+
+ITER 1/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:30<00:00,  6.65it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 24000
+took 150.47 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.96it/s]
+eval scores [-101, -51] (mean=-76)
+took 78.41 secs to evaluate
+total run time: 0h 7m 34s
+
+ITER 2/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:30<00:00,  6.64it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 36000
+took 150.64 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.40it/s]
+eval scores [-91, -134] (mean=-112)
+took 77.34 secs to evaluate
+total run time: 0h 11m 22s
+
+ITER 3/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:30<00:00,  6.63it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 48000
+took 150.88 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (8 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:16<00:00, 32.49it/s]
+eval scores [-170, -160, -230, -140, -160, -155, -147, -146] (mean=-163)
+took 77.15 secs to evaluate
+total run time: 0h 15m 10s
+
+ITER 4/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:30<00:00,  6.63it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 60000
+took 150.80 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (3 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.32it/s]
+eval scores [-73, -56, -17] (mean=-48)
+took 77.52 secs to evaluate
+total run time: 0h 18m 59s
+
+ITER 5/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:31<00:00,  6.59it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 72000
+took 151.72 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (14 completed): 100%|███████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.11it/s]
+eval scores [-119, -44, -47, -198, -165, -139, -174, -58, -100, -149, -47, -93, -83, -62] (mean=-105)
+took 78.04 secs to evaluate
+total run time: 0h 22m 49s
+
+ITER 6/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:33<00:00,  6.52it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 84000
+took 153.45 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.32it/s]
+eval scores [-47, -57] (mean=-52)
+took 77.53 secs to evaluate
+total run time: 0h 26m 40s
+
+ITER 7/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:31<00:00,  6.59it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 96000
+took 151.69 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.88it/s]
+eval scores [-77, -16] (mean=-46)
+took 78.63 secs to evaluate
+total run time: 0h 30m 30s
+
+ITER 8/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:33<00:00,  6.52it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 108000
+took 153.35 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:19<00:00, 31.63it/s]
+eval scores [-13, -55] (mean=-34)
+took 79.25 secs to evaluate
+total run time: 0h 34m 22s
+
+ITER 9/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:33<00:00,  6.50it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 120000
+took 153.91 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 32.02it/s]
+eval scores [-43, -85] (mean=-64)
+took 78.30 secs to evaluate
+total run time: 0h 38m 15s
+
+ITER 10/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:34<00:00,  6.46it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 132000
+took 154.93 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.32it/s]
+eval scores [-31, -8] (mean=-19)
+took 77.54 secs to evaluate
+total run time: 0h 42m 7s
+
+ITER 11/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:35<00:00,  6.41it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 144000
+took 155.94 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.42it/s]
+eval scores [-71, -82] (mean=-76)
+took 77.30 secs to evaluate
+total run time: 0h 46m 0s
+
+ITER 12/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:32<00:00,  6.54it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 156000
+took 153.05 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.32it/s]
+eval scores [-105, -43] (mean=-74)
+took 77.62 secs to evaluate
+total run time: 0h 49m 51s
+
+ITER 13/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:33<00:00,  6.50it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 168000
+took 154.00 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.75it/s]
+eval scores [-31, -12] (mean=-21)
+took 78.94 secs to evaluate
+total run time: 0h 53m 44s
+
+ITER 14/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:33<00:00,  6.52it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 180000
+took 153.41 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.17it/s]
+eval scores [8, -55] (mean=-23)
+took 77.91 secs to evaluate
+total run time: 0h 57m 35s
+
+ITER 15/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:35<00:00,  6.43it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 192000
+took 155.46 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (6 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.41it/s]
+eval scores [-151, -164, -154, -162, -157, -26] (mean=-135)
+took 77.33 secs to evaluate
+total run time: 1h 1m 28s
+
+ITER 16/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:35<00:00,  6.41it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 204000
+took 155.98 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (4 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.33it/s]
+eval scores [-59, -155, -51, -122] (mean=-96)
+took 77.50 secs to evaluate
+total run time: 1h 5m 22s
+
+ITER 17/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:35<00:00,  6.42it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 216000
+took 155.73 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (5 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.34it/s]
+eval scores [-180, -248, -138, -211, -321] (mean=-219)
+took 77.49 secs to evaluate
+total run time: 1h 9m 15s
+
+ITER 18/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:34<00:00,  6.48it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 228000
+took 154.45 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (3 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.96it/s]
+eval scores [111, 188, 21] (mean=106)
+took 78.41 secs to evaluate
+total run time: 1h 13m 8s
+
+ITER 19/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:34<00:00,  6.46it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 240000
+took 154.90 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (3 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 32.02it/s]
+eval scores [-208, -22, 180] (mean=-16)
+took 78.28 secs to evaluate
+total run time: 1h 17m 1s
+
+ITER 20/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:37<00:00,  6.37it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 252000
+took 157.09 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:19<00:00, 31.64it/s]
+eval scores [-20, 15] (mean=-2)
+took 79.22 secs to evaluate
+total run time: 1h 20m 57s
+
+ITER 21/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:35<00:00,  6.41it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 264000
+took 156.02 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:16<00:00, 32.54it/s]
+eval scores [94, -14] (mean=40)
+took 76.99 secs to evaluate
+total run time: 1h 24m 50s
+
+ITER 22/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:35<00:00,  6.44it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 276000
+took 155.26 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (3 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:16<00:00, 32.55it/s]
+eval scores [107, 134, 241] (mean=160)
+took 76.99 secs to evaluate
+total run time: 1h 28m 42s
+
+ITER 23/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:35<00:00,  6.41it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 288000
+took 156.03 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.06it/s]
+eval scores [20, 1] (mean=10)
+took 78.17 secs to evaluate
+total run time: 1h 32m 37s
+
+ITER 24/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:36<00:00,  6.41it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 300000
+took 156.13 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (4 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.72it/s]
+eval scores [170, 144, 215, 156] (mean=171)
+took 78.99 secs to evaluate
+total run time: 1h 36m 32s
+
+ITER 25/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:35<00:00,  6.43it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 312000
+took 155.59 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (3 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.42it/s]
+eval scores [217, 94, -28] (mean=94)
+took 77.30 secs to evaluate
+total run time: 1h 40m 25s
+
+ITER 26/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:33<00:00,  6.50it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 324000
+took 153.98 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.11it/s]
+eval scores [5, 1] (mean=3)
+took 78.04 secs to evaluate
+total run time: 1h 44m 17s
+
+ITER 27/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:37<00:00,  6.37it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 336000
+took 157.13 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.86it/s]
+eval scores [155, 109] (mean=132)
+took 78.68 secs to evaluate
+total run time: 1h 48m 12s
+
+ITER 28/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:38<00:00,  6.33it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 348000
+took 158.12 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (3 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.17it/s]
+eval scores [248, -65, 172] (mean=118)
+took 77.89 secs to evaluate
+total run time: 1h 52m 8s
+
+ITER 29/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:38<00:00,  6.32it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 360000
+took 158.16 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (3 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.31it/s]
+eval scores [25, 173, 212] (mean=136)
+took 77.56 secs to evaluate
+total run time: 1h 56m 4s
+
+ITER 30/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:38<00:00,  6.31it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 372000
+took 158.42 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.94it/s]
+eval scores [3, 174] (mean=88)
+took 78.47 secs to evaluate
+total run time: 2h 0m 1s
+
+ITER 31/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:39<00:00,  6.28it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 384000
+took 159.28 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (5 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.33it/s]
+eval scores [182, 212, -159, 245, 259] (mean=147)
+took 77.51 secs to evaluate
+total run time: 2h 3m 58s
+
+ITER 32/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:39<00:00,  6.27it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 396000
+took 159.46 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (5 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.39it/s]
+eval scores [251, 208, 241, 243, 202] (mean=229)
+took 77.36 secs to evaluate
+total run time: 2h 7m 55s
+
+ITER 33/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:38<00:00,  6.31it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 408000
+took 158.44 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (5 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.18it/s]
+eval scores [-127, 86, -101, 258, -99] (mean=3)
+took 77.87 secs to evaluate
+total run time: 2h 11m 51s
+
+ITER 34/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:39<00:00,  6.26it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 420000
+took 159.78 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (3 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.26it/s]
+eval scores [239, 209, 79] (mean=175)
+took 77.70 secs to evaluate
+total run time: 2h 15m 49s
+
+ITER 35/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:39<00:00,  6.26it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 432000
+took 159.84 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (4 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.86it/s]
+eval scores [180, 221, 177, 209] (mean=196)
+took 78.66 secs to evaluate
+total run time: 2h 19m 47s
+
+ITER 36/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:38<00:00,  6.30it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 444000
+took 158.68 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (5 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.13it/s]
+eval scores [228, 273, 265, 221, 274] (mean=252)
+took 78.00 secs to evaluate
+total run time: 2h 23m 44s
+
+ITER 37/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:40<00:00,  6.24it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 456000
+took 160.26 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (6 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.88it/s]
+eval scores [293, 243, 233, 248, 240, 114] (mean=228)
+took 78.60 secs to evaluate
+total run time: 2h 27m 43s
+
+ITER 38/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:41<00:00,  6.20it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 468000
+took 161.44 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (5 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.69it/s]
+eval scores [242, 178, 249, -98, -219] (mean=70)
+took 79.07 secs to evaluate
+total run time: 2h 31m 43s
+
+ITER 39/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:40<00:00,  6.23it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 480000
+took 160.67 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (6 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.70it/s]
+eval scores [271, -70, 253, 276, 53, 228] (mean=168)
+took 79.06 secs to evaluate
+total run time: 2h 35m 43s
+
+ITER 40/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:40<00:00,  6.22it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 492000
+took 160.84 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (3 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:19<00:00, 31.55it/s]
+eval scores [138, 147, 257] (mean=180)
+took 79.46 secs to evaluate
+total run time: 2h 39m 43s
+
+ITER 41/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:39<00:00,  6.26it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 504000
+took 159.89 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (3 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:19<00:00, 31.58it/s]
+eval scores [243, 146, 101] (mean=163)
+took 79.33 secs to evaluate
+total run time: 2h 43m 42s
+
+ITER 42/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:40<00:00,  6.22it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 516000
+took 160.89 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.80it/s]
+eval scores [-26, 10] (mean=-8)
+took 78.79 secs to evaluate
+total run time: 2h 47m 42s
+
+ITER 43/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:40<00:00,  6.22it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 528000
+took 160.82 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (4 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.23it/s]
+eval scores [146, 230, 227, 57] (mean=165)
+took 77.75 secs to evaluate
+total run time: 2h 51m 41s
+
+ITER 44/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:40<00:00,  6.23it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 540000
+took 160.50 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.92it/s]
+eval scores [-88, -33] (mean=-60)
+took 78.51 secs to evaluate
+total run time: 2h 55m 40s
+
+ITER 45/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:42<00:00,  6.15it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 552000
+took 162.64 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (5 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.77it/s]
+eval scores [209, 215, 80, 281, 226] (mean=202)
+took 78.88 secs to evaluate
+total run time: 2h 59m 41s
+
+ITER 46/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:42<00:00,  6.15it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 564000
+took 162.73 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (5 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.96it/s]
+eval scores [184, 272, 220, 84, 167] (mean=185)
+took 78.42 secs to evaluate
+total run time: 3h 3m 42s
+
+ITER 47/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:41<00:00,  6.20it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 576000
+took 161.40 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (5 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.43it/s]
+eval scores [223, 245, 65, 204, 216] (mean=190)
+took 77.28 secs to evaluate
+total run time: 3h 7m 41s
+
+ITER 48/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:43<00:00,  6.13it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 588000
+took 163.07 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (8 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.06it/s]
+eval scores [311, 27, 270, 263, 224, 307, 295, 220] (mean=239)
+took 78.16 secs to evaluate
+total run time: 3h 11m 42s
+
+ITER 49/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:41<00:00,  6.18it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 600000
+took 161.77 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 32.00it/s]
+eval scores [-14, 126] (mean=56)
+took 78.34 secs to evaluate
+total run time: 3h 15m 42s
+
+ITER 50/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:44<00:00,  6.09it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 612000
+took 164.38 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (5 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.37it/s]
+eval scores [206, 216, 220, 223, 238] (mean=220)
+took 77.42 secs to evaluate
+total run time: 3h 19m 44s
+
+ITER 51/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:43<00:00,  6.10it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 624000
+took 163.88 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (2 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.25it/s]
+eval scores [155, 102] (mean=128)
+took 77.72 secs to evaluate
+total run time: 3h 23m 46s
+
+ITER 52/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:43<00:00,  6.11it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 636000
+took 163.75 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (10 completed): 100%|███████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.11it/s]
+eval scores [-173, -195, -163, 280, -165, 225, -209, -152, -128, 266] (mean=-41)
+took 78.05 secs to evaluate
+total run time: 3h 27m 47s
+
+ITER 53/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:43<00:00,  6.13it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 648000
+took 163.16 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (9 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.38it/s]
+eval scores [268, 265, 286, 292, 269, 228, 304, 246, 256] (mean=268)
+took 77.40 secs to evaluate
+total run time: 3h 31m 48s
+
+ITER 54/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:41<00:00,  6.19it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 660000
+took 161.72 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (5 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.41it/s]
+eval scores [158, 258, 236, 270, 254] (mean=235)
+took 77.32 secs to evaluate
+total run time: 3h 35m 47s
+
+ITER 55/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:43<00:00,  6.11it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 672000
+took 163.70 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (5 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.28it/s]
+eval scores [239, 165, 307, 223, 218] (mean=230)
+took 77.62 secs to evaluate
+total run time: 3h 39m 48s
+
+ITER 56/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:44<00:00,  6.08it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 684000
+took 164.48 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (10 completed): 100%|███████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.35it/s]
+eval scores [267, 256, 270, 241, 254, 285, 270, 286, 261, 258] (mean=264)
+took 77.45 secs to evaluate
+total run time: 3h 43m 50s
+
+ITER 57/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:43<00:00,  6.11it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 696000
+took 163.74 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (7 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.20it/s]
+eval scores [269, 242, 196, 240, 275, 283, 282] (mean=255)
+took 77.97 secs to evaluate
+total run time: 3h 47m 52s
+
+ITER 58/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:43<00:00,  6.10it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 708000
+took 163.89 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (5 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.99it/s]
+eval scores [268, 207, 309, 94, 225] (mean=220)
+took 78.34 secs to evaluate
+total run time: 3h 51m 54s
+
+ITER 59/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:45<00:00,  6.05it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 720000
+took 165.41 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (4 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.20it/s]
+eval scores [293, 270, 264, 138] (mean=241)
+took 77.81 secs to evaluate
+total run time: 3h 55m 57s
+
+ITER 60/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:47<00:00,  5.97it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 732000
+took 167.47 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (4 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.94it/s]
+eval scores [229, 248, 98, 234] (mean=202)
+took 78.46 secs to evaluate
+total run time: 4h 0m 3s
+
+ITER 61/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:46<00:00,  6.02it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 744000
+took 166.17 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (4 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.37it/s]
+eval scores [227, 138, 195, -213] (mean=86)
+took 77.41 secs to evaluate
+total run time: 4h 4m 7s
+
+ITER 62/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:43<00:00,  6.10it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 756000
+took 164.00 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (8 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 32.03it/s]
+eval scores [225, 250, 289, 304, 252, 242, 281, 266] (mean=263)
+took 78.23 secs to evaluate
+total run time: 4h 8m 9s
+
+ITER 63/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:46<00:00,  6.01it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 768000
+took 166.35 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (9 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.95it/s]
+eval scores [234, 263, 253, 251, 254, 241, 266, 267, 255] (mean=253)
+took 78.46 secs to evaluate
+total run time: 4h 12m 14s
+
+ITER 64/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:46<00:00,  5.99it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 780000
+took 167.02 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (7 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.31it/s]
+eval scores [242, 270, 235, 286, 206, 241, 279] (mean=251)
+took 77.56 secs to evaluate
+total run time: 4h 16m 19s
+
+ITER 65/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:47<00:00,  5.97it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 792000
+took 167.49 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (7 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.12it/s]
+eval scores [297, 271, 129, 297, 280, 265, 281] (mean=260)
+took 78.00 secs to evaluate
+total run time: 4h 20m 24s
+
+ITER 66/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:46<00:00,  6.00it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 804000
+took 166.82 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (6 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.87it/s]
+eval scores [240, 234, 269, 264, 244, 264] (mean=252)
+took 78.63 secs to evaluate
+total run time: 4h 24m 30s
+
+ITER 67/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:50<00:00,  5.86it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 816000
+took 170.71 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (8 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.91it/s]
+eval scores [258, 216, 243, 256, 260, 294, 256, 268] (mean=256)
+took 78.53 secs to evaluate
+total run time: 4h 28m 39s
+
+ITER 68/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:47<00:00,  5.98it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 828000
+took 167.31 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (8 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.20it/s]
+eval scores [237, 252, 306, 244, 284, 245, 272, 314] (mean=269)
+took 77.82 secs to evaluate
+total run time: 4h 32m 44s
+
+ITER 69/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:48<00:00,  5.94it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 840000
+took 168.38 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (5 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.26it/s]
+eval scores [275, 227, 116, 231, 210] (mean=211)
+took 77.68 secs to evaluate
+total run time: 4h 36m 50s
+
+ITER 70/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:49<00:00,  5.91it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 852000
+took 169.18 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (4 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.79it/s]
+eval scores [223, 226, 162, 257] (mean=217)
+took 78.82 secs to evaluate
+total run time: 4h 40m 58s
+
+ITER 71/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:50<00:00,  5.86it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 864000
+took 170.59 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (9 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.32it/s]
+eval scores [267, 244, 251, 269, 220, 232, 302, 229, 234] (mean=249)
+took 77.55 secs to evaluate
+total run time: 4h 45m 6s
+
+ITER 72/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:49<00:00,  5.88it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 876000
+took 170.04 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (7 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.41it/s]
+eval scores [158, 269, 301, 245, 258, 246, 246] (mean=246)
+took 77.33 secs to evaluate
+total run time: 4h 49m 13s
+
+ITER 73/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:49<00:00,  5.90it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 888000
+took 169.62 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (4 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.98it/s]
+eval scores [292, 143, 153, 287] (mean=218)
+took 78.37 secs to evaluate
+total run time: 4h 53m 21s
+
+ITER 74/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:50<00:00,  5.87it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 900000
+took 170.26 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (3 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 32.00it/s]
+eval scores [229, 242, 95] (mean=188)
+took 78.32 secs to evaluate
+total run time: 4h 57m 30s
+
+ITER 75/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:51<00:00,  5.83it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 912000
+took 171.44 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (10 completed): 100%|███████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.07it/s]
+eval scores [296, 266, 310, 271, 237, 264, 293, 257, 244, 273] (mean=271)
+took 78.14 secs to evaluate
+total run time: 5h 1m 40s
+
+ITER 76/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:47<00:00,  5.97it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 924000
+took 167.54 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (4 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.83it/s]
+eval scores [303, 136, 253, 313] (mean=251)
+took 78.74 secs to evaluate
+total run time: 5h 5m 46s
+
+ITER 77/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:49<00:00,  5.90it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 936000
+took 169.67 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (7 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.74it/s]
+eval scores [162, 264, 244, 272, 267, 258, 253] (mean=245)
+took 78.94 secs to evaluate
+total run time: 5h 9m 55s
+
+ITER 78/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:50<00:00,  5.87it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 948000
+took 170.29 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (7 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.85it/s]
+eval scores [247, 270, 129, 312, 299, 276, 265] (mean=256)
+took 78.67 secs to evaluate
+total run time: 5h 14m 3s
+
+ITER 79/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:50<00:00,  5.88it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 960000
+took 170.25 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (6 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.12it/s]
+eval scores [217, 259, 265, 10, 269, 221] (mean=206)
+took 78.04 secs to evaluate
+total run time: 5h 18m 12s
+
+ITER 80/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:49<00:00,  5.90it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 972000
+took 169.42 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (7 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.15it/s]
+eval scores [231, 200, 250, 274, 230, 248, 217] (mean=235)
+took 77.93 secs to evaluate
+total run time: 5h 22m 19s
+
+ITER 81/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:49<00:00,  5.90it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 984000
+took 169.63 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (4 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.12it/s]
+eval scores [142, 271, 261, 282] (mean=239)
+took 78.01 secs to evaluate
+total run time: 5h 26m 27s
+
+ITER 82/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:50<00:00,  5.87it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 996000
+took 170.37 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (3 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.94it/s]
+eval scores [131, -262, 195] (mean=21)
+took 78.45 secs to evaluate
+total run time: 5h 30m 36s
+
+ITER 83/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:49<00:00,  5.91it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 1000000
+took 169.28 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (3 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.83it/s]
+eval scores [49, 210, 257] (mean=172)
+took 78.74 secs to evaluate
+total run time: 5h 34m 44s
+
+ITER 84/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:52<00:00,  5.79it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 1000000
+took 172.84 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (3 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:18<00:00, 31.93it/s]
+eval scores [225, -45, 150] (mean=110)
+took 78.50 secs to evaluate
+total run time: 5h 38m 55s
+
+ITER 85/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:50<00:00,  5.87it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 1000000
+took 170.52 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (11 completed): 100%|███████████████████████████████████████████████████████████████| 2500/2500 [01:15<00:00, 33.28it/s]
+eval scores [288, 259, 310, 300, 238, 278, 256, 291, 234, 296, 233] (mean=271)
+took 75.30 secs to evaluate
+total run time: 5h 43m 1s
+
+ITER 86/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:40<00:00,  6.24it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 1000000
+took 160.20 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (7 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:13<00:00, 34.11it/s]
+eval scores [285, 274, 270, 233, 209, 300, 261] (mean=261)
+took 73.50 secs to evaluate
+total run time: 5h 46m 54s
+
+ITER 87/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:38<00:00,  6.29it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 1000000
+took 159.01 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (7 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:13<00:00, 33.94it/s]
+eval scores [243, 266, 233, 244, 253, 230, 302] (mean=253)
+took 73.84 secs to evaluate
+total run time: 5h 50m 47s
+
+ITER 88/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:40<00:00,  6.24it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 1000000
+took 160.28 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (9 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:13<00:00, 34.11it/s]
+eval scores [255, 297, 272, 274, 247, 284, 268, 291, 269] (mean=273)
+took 73.45 secs to evaluate
+total run time: 5h 54m 41s
+
+ITER 89/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:41<00:00,  6.18it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 1000000
+took 161.83 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (8 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:13<00:00, 33.83it/s]
+eval scores [293, 267, 261, -154, 248, 287, 268, 303] (mean=221)
+took 74.08 secs to evaluate
+total run time: 5h 58m 37s
+
+ITER 90/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:40<00:00,  6.24it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 1000000
+took 160.38 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (7 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:13<00:00, 34.10it/s]
+eval scores [265, 262, 92, 256, 262, 235, 296] (mean=238)
+took 73.52 secs to evaluate
+total run time: 6h 2m 31s
+
+ITER 91/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:39<00:00,  6.25it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 1000000
+took 160.05 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (10 completed): 100%|███████████████████████████████████████████████████████████████| 2500/2500 [01:13<00:00, 34.05it/s]
+eval scores [247, 272, 288, 302, 282, 238, 306, 266, 268, 266] (mean=273)
+took 73.62 secs to evaluate
+total run time: 6h 6m 25s
+
+ITER 92/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:42<00:00,  6.17it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 1000000
+took 162.07 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (8 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:13<00:00, 34.13it/s]
+eval scores [262, 234, 291, 266, 249, 257, 270, 129] (mean=244)
+took 73.41 secs to evaluate
+total run time: 6h 10m 20s
+
+ITER 93/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:41<00:00,  6.18it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 1000000
+took 161.83 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (6 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:13<00:00, 33.89it/s]
+eval scores [224, -136, 246, 171, 270, 209] (mean=164)
+took 73.95 secs to evaluate
+total run time: 6h 14m 16s
+
+ITER 94/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:39<00:00,  6.26it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 1000000
+took 159.86 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (8 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:11<00:00, 34.87it/s]
+eval scores [220, 239, 223, 234, 285, 262, 224, 279] (mean=245)
+took 71.88 secs to evaluate
+total run time: 6h 18m 8s
+
+ITER 95/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:45<00:00,  6.04it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 1000000
+took 165.49 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (5 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:13<00:00, 34.19it/s]
+eval scores [279, 111, 240, 262, 270] (mean=232)
+took 73.28 secs to evaluate
+total run time: 6h 22m 6s
+
+ITER 96/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:39<00:00,  6.29it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 1000000
+took 159.08 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (5 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:11<00:00, 35.08it/s]
+eval scores [278, 120, 267, 248, 230] (mean=228)
+took 71.45 secs to evaluate
+total run time: 6h 25m 57s
+
+ITER 97/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:37<00:00,  6.34it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 1000000
+took 157.74 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (4 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:10<00:00, 35.37it/s]
+eval scores [143, 214, 114, 297] (mean=192)
+took 70.86 secs to evaluate
+total run time: 6h 29m 45s
+
+ITER 98/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:43<00:00,  6.11it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 1000000
+took 163.61 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (7 completed): 100%|████████████████████████████████████████████████████████████████| 2500/2500 [01:15<00:00, 33.33it/s]
+eval scores [259, 304, 227, 276, 278, 299, 279] (mean=274)
+took 75.19 secs to evaluate
+total run time: 6h 33m 44s
+
+ITER 99/100
+train (eps=0.20): 100%|██████████████████████████████████████████████████████████████████| 1000/1000 [02:46<00:00,  6.00it/s]
+weights saved to weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+collected memory entries: 1000000
+took 166.82 secs to train
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (11 completed): 100%|███████████████████████████████████████████████████████████████| 2500/2500 [01:15<00:00, 33.13it/s]
+eval scores [245, 246, 261, 284, 282, 268, -287, 256, 266, 292, 297] (mean=219)
+took 75.64 secs to evaluate
+total run time: 6h 37m 47s
+(.venv) PS C:\Users\heihachi\Documents\Python Scripts\LunarLander> py .\main_vec.py -g
+physical_gpu_devices [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+physical_cpu_devices [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+USING GPU [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+using weights weights_LunarLander-v2_ModelActorCritic_VECGPU.h5
+eval (11 completed): 100%|███████████████████████████████████████████████████████████████| 2500/2500 [01:17<00:00, 32.31it/s]
+eval scores [273, 292, 283, 248, 297, 285, 236, 268, 280, 256, 275] (mean=272)
+took 78.68 secs to evaluate
+(.venv) PS C:\Users\heihachi\Documents\Python Scripts\LunarLander>
