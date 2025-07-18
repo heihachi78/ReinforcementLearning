@@ -58,14 +58,10 @@ class ModelActorCritic(BaseModel):
             Input(shape=(self.n_input)),
             Dense(self.n_neurons[0], activation='relu'),
             Dense(self.n_neurons[1], activation='relu'),
-            Dense(self.n_output, activation='linear')
+            Dense(self.n_output, activation='linear', name='custom_model')
         ])
 
-        model.compile(optimizer=Adam(learning_rate=self.learning_rate),
-                      loss='mse',
-                      metrics=['mse', 'mae'],
-                      run_eagerly=False,
-                      jit_compile=True)
+        model.compile(optimizer=Adam(learning_rate=self.learning_rate), loss='mse')
 
         #model.summary()
 
@@ -94,7 +90,7 @@ class ModelActorCritic(BaseModel):
         q_table[batch_index, action_indices] = rewards[batch_index]
         q_table[batch_index, action_indices] += self.gamma * q_table_next[batch_index, max_actions] * terminates[batch_index]
 
-        self.actor.fit(x=states, y=q_table, verbose=self.verbose, batch_size=n_samples, epochs=1, use_multiprocessing=True)
+        self.actor.fit(x=states, y=q_table, verbose=self.verbose, batch_size=n_samples, epochs=1)
 
 
     def save(self) -> None:
@@ -194,7 +190,7 @@ class DuelingDeepQNetwork(BaseModel):
         q_table[batch_index, action_indices] = rewards[batch_index]
         q_table[batch_index, action_indices] += self.gamma * q_table_next[batch_index, max_actions] * terminates[batch_index]
 
-        self.actor.fit(x=states, y=q_table, verbose=self.verbose, batch_size=n_samples, epochs=1, use_multiprocessing=True)
+        self.actor.fit(x=states, y=q_table, verbose=self.verbose, batch_size=n_samples, epochs=1)
 
 
     def save(self) -> None:

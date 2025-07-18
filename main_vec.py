@@ -90,7 +90,7 @@ def test(render : bool = False) -> int:
 def learn(device : str) -> None:
     t_total_start = time.perf_counter()
 
-    envs : gym.vector.VectorEnv = gym.vector.make(ENV_NAME, num_envs=PROCESSES, asynchronous=ASYNC)
+    envs : gym.vector.VectorEnv = gym.make_vec(ENV_NAME, num_envs=PROCESSES, vectorization_mode="async" if ASYNC else "sync")
 
     mem : Memory = Memory(processes=PROCESSES,
                           max_memory=MAX_MEMORY,
@@ -133,11 +133,13 @@ def learn(device : str) -> None:
                 dones_ = np.logical_or(terminations, truncations)
 
                 try:
-                    if np.any(infos['_final_observation']):
+                    # Handle final observations if available (older gymnasium versions)
+                    if 'final_observation' in infos and np.any([info is not None for info in infos.get('final_observation', [])]):
                         fo = [infos['final_observation'][i] if infos['final_observation'][i] is not None else observations[i] for i in range(PROCESSES)]
                         fo = np.array(fo)
                         observations_ = fo.copy()
-                except:
+                except Exception:
+                    # For newer gymnasium versions, the final observation handling is automatic
                     pass
 
                 mem.store(old_observations, actions, rewards, observations_, dones_)
@@ -173,7 +175,7 @@ def train_eval(model : BaseModel) -> None:
 
     t_start = time.perf_counter()
 
-    envs : gym.vector.VectorEnv = gym.vector.make(ENV_NAME, num_envs=PROCESSES, asynchronous=ASYNC)
+    envs : gym.vector.VectorEnv = gym.make_vec(ENV_NAME, num_envs=PROCESSES, vectorization_mode="async" if ASYNC else "sync")
 
     observations, infos = envs.reset()
     scores = [0 for _ in range(PROCESSES)]
@@ -205,10 +207,10 @@ def train_eval(model : BaseModel) -> None:
 
 if __name__ == '__main__':
 
-    LEARNING = False
-    DISABLE_GPU = True
+    LEARNING = True
+    DISABLE_GPU = False
     ASYNC = True
-    PROCESSES = 12
+    PROCESSES = 16
 
     parser = argparse.ArgumentParser()
     parser.add_argument('-g', '--enablegpu', action='store_true', help="enable GPU", default=False)
@@ -225,9 +227,9 @@ if __name__ == '__main__':
     if args.processcount:
         PROCESSES = args.processcount
 
-    #ENV_NAME = 'LunarLander-v2' 
+    ENV_NAME = 'LunarLander-v3' 
     #ENV_NAME = 'CartPole-v1'
-    ENV_NAME = 'MountainCar-v0'
+    #ENV_NAME = 'MountainCar-v0'
     ASYNC = True
     ITERS = 100
     MAX_MEMORY = 1_000_000
