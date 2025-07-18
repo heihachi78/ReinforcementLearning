@@ -50,7 +50,7 @@ class ModelActorCritic(BaseModel):
         self.actor : Model = self._create_model()
         self.target : Model = self._create_model()
         self.device = device
-        self.save_file = 'weights_' + save_file + '_' + self.__class__.__name__ + '_' + self.device + '.h5'
+        self.save_file = 'weights_' + save_file + '_' + self.__class__.__name__ + '_' + self.device + '.weights.h5'
 
 
     def _create_model(self) -> Model:
@@ -151,7 +151,7 @@ class DuelingDeepQNetwork(BaseModel):
         self.actor : CustomModel = self._create_model()
         self.target : CustomModel = self._create_model()
         self.device = device
-        self.save_file = 'weights_' + save_file + '_' + self.__class__.__name__ + '_' + self.device + '.h5'
+        self.save_file = 'weights_' + save_file + '_' + self.__class__.__name__ + '_' + self.device + '.weights.h5'
         self.build = False
         self.predict(np.zeros((1, n_input), dtype=np.float32))
 
